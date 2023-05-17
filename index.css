@@ -67,7 +67,7 @@ body
 
 .device 
 {
-    margin-top: 100px;
+    margin-top: 140px;
     border: 2px solid #8eb6fc;
     width: 180px;
     height: 350px;
@@ -186,7 +186,17 @@ body
     opacity: 1;
   }
 }
-.text-content
+
+.camera
+{
+  width: 10px;
+  height: 10px;
+  /* background: #111; */
+  border: 2px solid #8eb6fc;
+  visibility: visible;
+  border-radius: 20px;
+}
+/* .text-content
 {
   font-size: 1.25rem;
   padding: 10px;
@@ -207,10 +217,10 @@ body
     font-size: 2rem;
     opacity: 1;
   }
-}
+} */
 .bottom-area
 {
-  width: 70%;
+  width: 50%;
   height: 7.5px;
   border-radius: 10px;
   background-color: #8eb6fc;
@@ -221,12 +231,12 @@ body
 @keyframes changeBottom
 {
   0%{
-      width: 70%;
+      width: 50%;
       height: 7.5px;
   }
   50%
   {
-      width: 70%;
+      width: 50%;
       height: 10px;
       margin-bottom: 10px;
       border-radius: 10px;
