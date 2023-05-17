@@ -37,6 +37,7 @@ body
     margin-bottom: 0;
     padding-bottom: 0;
     display: flex;
+    justify-content: space-evenly;
     gap: 50px;
 }
 .main--intro
@@ -185,24 +186,28 @@ body
     opacity: 1;
   }
 }
-/* .text-content
+.text-content
 {
   font-size: 1.25rem;
   padding: 10px;
-  animation: changeFontSize 5s infinite alternate;
+  animation: changeFontSize 5s ease-in-out infinite alternate;
+  opacity: 0;
 }
 @keyframes changeFontSize
 {
   0% {
     font-size: 1.25rem;
+    opacity: 0;
   }
   50%{
     font-size: 1.75rem;
+    opacity: 0.5;
   }
   100%{
     font-size: 2rem;
+    opacity: 1;
   }
-} */
+}
 .bottom-area
 {
   width: 70%;

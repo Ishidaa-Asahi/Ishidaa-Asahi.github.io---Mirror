@@ -10,11 +10,12 @@ const resizeObserver = new ResizeObserver(entries => {
 
 function updateTextContent(width, height) {
   if (width <= 200 && height <= 400) {
-    text.textContent = "I'm a Magician";
+    text.textContent = "";
   } else if (width <= 300 && height <= 500) {
-    text.textContent = "I play with colors";
-  } else {
-    text.textContent = "also make users less frustrated";
+    text.textContent = "";
+  } 
+  else {
+    text.textContent = "Ummm, which means I'm a UX/UI Designer";
   }
 }
 
