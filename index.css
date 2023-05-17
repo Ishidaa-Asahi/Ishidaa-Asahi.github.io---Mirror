@@ -347,6 +347,20 @@ body
     border-radius: 10px 10px 0 0 ;
   }
 }
+.laptop-icons
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 7.5px 0px 0 10px;
+  animation: showIcons 5s ease-in-out infinite alternate;
+  visibility: hidden;
+  opacity: 0;
+}
+.close-mini-max-icon
+{
+  width: 15px;
+}
 .bottom-area
 {
   width: 70%;
