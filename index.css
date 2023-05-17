@@ -122,8 +122,70 @@ body
     border-radius: 20px 20px 0 0 ;
   }
 }
+.laptop-icons
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 0px 0 10px;
+  animation: showIcons 5s ease-in-out infinite alternate;
+  visibility: hidden;
+  opacity: 0;
+}
+.close-mini-max-icon
+{
+  width: 20px;
+}
 
-.text-content
+@keyframes showIcons
+{
+  0%
+  {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50%
+  {
+    visibility: hidden;
+    /* opacity: 0.1; */
+  }
+  60%
+  {
+    visibility: visible;
+    opacity: 0;
+  }
+  70%
+  {
+    visibility: visible;
+    opacity: 0.3;
+  }
+  80%
+  {
+    visibility: visible;
+    opacity: 0.7;
+  }
+  85%
+  {
+    visibility: visible;
+    opacity: 0.8;
+  }
+  90%
+  {
+    visibility: visible;
+    opacity: 0.85;
+  }
+  95%
+  {
+    visibility: visible;
+    opacity: 0.9;
+  }
+  100%
+  {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+/* .text-content
 {
   font-size: 1.25rem;
   padding: 10px;
@@ -140,7 +202,7 @@ body
   100%{
     font-size: 2rem;
   }
-}
+} */
 .bottom-area
 {
   width: 70%;
