@@ -39,7 +39,7 @@
 {
     color: #fff;
     background: #8eb6fc;
-    padding: 15px 20px;
+    padding: 15px 50px;
     border-radius: 55px;
     text-decoration-line: none ;
     box-shadow: 2px 2px #111;
@@ -91,7 +91,14 @@
 
 .contact-section
 {
+    margin-top: 50px;
     margin-bottom: 50px;
+    padding: 0 100px;
+}
+#contact-heading
+{
+    font-size: 2.75rem;
+    font-weight: 600;
 }
 #copyright
 {
@@ -133,15 +140,6 @@
     {
         /* order: 1; */
         height: 250px;
-    }
-
-    #resume
-    {
-        padding: 15px 20px;
-        border-radius: 55px;
-        text-decoration-line: none ;
-        box-shadow: 2px 2px #111;
-        font-weight: 500;
     }
     #new-oppurtunities
     {

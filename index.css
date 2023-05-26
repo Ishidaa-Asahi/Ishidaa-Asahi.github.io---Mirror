@@ -1,6 +1,6 @@
 body
 {
-    background: #FEF2F4;
+    background: #ffffff;
     margin: 0;
     padding: 0;
     font-family: 'Satoshi', sans-serif;
@@ -49,7 +49,7 @@ body
     margin-bottom: 0;
     padding-bottom: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 50px;
 }
 .main--intro
@@ -76,7 +76,6 @@ body
 }
 
 /* Devices */
-
 .device 
 {
     margin-top: 140px;
@@ -89,6 +88,8 @@ body
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    /* position: relative; */
+    /* left: 10%; */
 }
   
 @keyframes changeDevice
@@ -96,14 +97,17 @@ body
   0% {
     width: 180px;
     height: 350px;
+    /* border: 2px solid #8eb6fc; */
   }
   50% {
     width: 280px;
     height: 450px;
+    /* border: 2px solid #ADA2FF; */
   }
   100% {
     width: 650px;
     height: 450px;
+    /* border: 2px solid #fc8ee0; */
   }
 }
 .top-notch {
@@ -122,17 +126,21 @@ body
   0% {
     width: 30%;
     height: 20px;
+    /* border: 2px solid #8eb6fc; */
+    border-top: 2px;
   }
   50% {
     width: 35%;
     height: 30px;
-    border-top: 1px;
     border-radius: 0 0 10px 10px;
+    /* border: 2px solid #ADA2FF; */
+    border-top: 1px;
   }
   100% {
     width: 100%;
     height: 35px;
     border-radius: 20px 20px 0 0 ;
+    /* border: 2px solid #fc8ee0; */
   }
 }
 .laptop-icons
@@ -199,15 +207,14 @@ body
   }
 }
 
-.camera
+/* .camera
 {
   width: 10px;
   height: 10px;
-  /* background: #111; */
   border: 2px solid #8eb6fc;
   visibility: visible;
   border-radius: 20px;
-}
+} */
 /* .text-content
 {
   font-size: 1.25rem;
@@ -245,6 +252,7 @@ body
   0%{
       width: 50%;
       height: 7.5px;
+      /* background-color: #8eb6fc; */
   }
   50%
   {
@@ -252,6 +260,7 @@ body
       height: 10px;
       margin-bottom: 10px;
       border-radius: 10px;
+      /* background-color: #ADA2FF; */
   }
   100%
   {
@@ -259,13 +268,13 @@ body
       height: 35px;
       margin-bottom: 0px;
       border-radius: 0px 0px 20px 20px;
+      /* background-color:  #fc8ee0; */
   }
 }
 
 
 
   
-
 
 @media (min-width: 360px) and (max-width: 768px) 
 {
@@ -487,4 +496,74 @@ body
 }
 
   
+}
+
+@media (min-width: 769px) and (max-width: 1200px) 
+{
+  
+  .main-section
+  {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1250px) 
+{
+    .main-section
+    {
+      /* font-size: ; */
+      margin-bottom: 0;
+      padding-bottom: 0;
+      display: flex;
+      /* flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+      gap: 50px;
+    }
+    #hi-iam-sadhasivam
+    {
+      font-size: 2.25rem;
+    }
+    .main--intro
+    {
+      font-size: 1.5rem;
+    }
+    .device 
+    {
+        margin-top: 100px;
+        border: 2px solid #8eb6fc;
+        width: 120px;
+        height: 240px;
+        border-radius: 10px;
+        animation: changeDevice 5s infinite alternate;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* position: relative; */
+        /* left: 10%; */
+    }
+      
+    @keyframes changeDevice
+    {
+      0% {
+        width: 120px;
+        height: 240px;
+      }
+      50% {
+        width: 180px;
+        height: 300px;
+      }
+      100% {
+        width: 400px;
+        height: 300px;
+      }
+    }
+    
 }
